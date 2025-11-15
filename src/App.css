@@ -1,0 +1,80 @@
+/* src/App.css */
+.app-container {
+  max-width: 400px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+  text-align: center;
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+h1 {
+  margin-bottom: 2rem;
+  color: #0f172a;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus {
+  border-color: #0070f3;
+  box-shadow: 0 0 6px rgba(0,112,243,0.5);
+  outline: none;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
+button {
+  flex: 1;
+  margin: 0 0.25rem;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #0070f3;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover:not(:disabled) {
+  background-color: #005ecb;
+  transform: scale(1.05);
+}
+
+button:disabled {
+  background-color: #a0c4ff;
+  cursor: not-allowed;
+}
+
+.message {
+  margin-top: 1rem;
+  font-weight: bold;
+  min-height: 1.5rem;
+  animation: fadein 0.5s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@media (max-width: 500px) {
+  .app-container { padding: 1.5rem; }
+  input { font-size: 0.9rem; }
+  button { font-size: 0.9rem; padding: 0.6rem; }
+}
+
