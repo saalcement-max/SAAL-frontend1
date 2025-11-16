@@ -8,8 +8,6 @@
     "source": "/<*>",
     "target": "/index.html",
     "status": "200",
-    "condition": {
-      "exclude": [".js", ".css", ".png", ".jpg", ".jpeg", ".svg", ".ico", ".webp", ".gif", ".map"]
-    }
+    "condition": null
   }
 ]
