@@ -1,5 +1,10 @@
 [
   {
+    "source": "https://saalcement.com",
+    "target": "https://www.saalcement.com",
+    "status": "302"
+  },
+  {
     "source": "/<*>",
     "target": "/index.html",
     "status": "200",
