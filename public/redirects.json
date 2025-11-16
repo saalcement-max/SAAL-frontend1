@@ -8,6 +8,9 @@
     "source": "/<*>",
     "target": "/index.html",
     "status": "200",
-    "condition": null
+    "condition": {
+      "exclude": [ "\\.js$", "\\.css$", "\\.png$", "\\.jpg$", "\\.jpeg$", "\\.svg$", "\\.ico$" ]
+    }
   }
 ]
+
