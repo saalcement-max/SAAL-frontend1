@@ -1,16 +1,10 @@
 [
   {
-    "source": "https://saalcement.com",
-    "target": "https://www.saalcement.com",
-    "status": "302"
-  },
-  {
     "source": "/<*>",
     "target": "/index.html",
     "status": "200",
     "condition": {
-      "exclude": [ "\\.js$", "\\.css$", "\\.png$", "\\.jpg$", "\\.jpeg$", "\\.svg$", "\\.ico$" ]
+      "exclude": [".js", ".css", ".png", ".jpg", ".jpeg", ".svg", ".ico", ".webp", ".gif", ".map"]
     }
   }
 ]
-
