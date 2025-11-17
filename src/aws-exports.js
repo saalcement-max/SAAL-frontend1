@@ -1,4 +1,4 @@
-// src/aws-exports.js
+<<'EOF'
 const awsconfig = {
   aws_project_region: "us-west-2",
   aws_cognito_region: "us-west-2",
@@ -8,10 +8,7 @@ const awsconfig = {
     region: "us-west-2",
     userPoolId: "us-west-2_atOwvbO12",
     userPoolWebClientId: "4vq96f8njdfqgr2qaq75hokuak"
-  },
-  aws_content_delivery_bucket: "",        // optional
-  aws_content_delivery_bucket_region: ""  // optional
+  }
 };
-
 export default awsconfig;
-
+EOF
